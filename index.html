@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sayyedah Fatma Helen — Portofolio</title>
+  <meta name="description" content="Portofolio Sayyedah Fatma Helen, mahasiswa Teknik Informatika UNESA dengan minat pada UI/UX Design dan desain digital." />
+  <meta name="theme-color" content="#C8B6F0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style (1).css" />
+</head>
+<body>
+  <a class="skip" href="#home">Lewati ke konten</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="logo" aria-label="Sayyedah Fatma Helen, ke beranda">SFH</a>
+      <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav aria-label="Navigasi utama">
+        <ul class="menu" id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">What I Can Do</a></li>
+          <li><a href="#achievement">Achievement</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HOME ============ -->
+    <section class="hero" id="home">
+      <div class="shape shape--a" aria-hidden="true"></div>
+      <div class="shape shape--b" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="hello">Hello, I'm</p>
+          <h1>Sayyedah <br />Fatma Helen</h1>
+          <p class="role">Mahasiswa Teknik Informatika | Aspiring UI/UX Designer</p>
+          <p class="lead">Mahasiswa baru Teknik Informatika Universitas Negeri Surabaya yang tertarik pada UI/UX Design dan desain digital. Saya senang belajar hal baru, mengembangkan kreativitas, dan berkolaborasi.</p>
+          <div class="actions">
+            <a href="#about" class="btn btn--primary">Lihat Portofolio</a>
+            <a href="#contact" class="btn btn--ghost">Hubungi Saya</a>
+            <a href="https://github.com/sayyedah246-del" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="GitHub Sayyedah Fatma Helen (tab baru)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 8.36 22.9c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sayyedah-fatma-helen-526283441/" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="LinkedIn Sayyedah Fatma Helen (tab baru)">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.1V21h-4v-4.78c0-1.14-.02-2.6-1.59-2.6-1.59 0-1.83 1.24-1.83 2.52V21h-4V9.75Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__photo">
+          <div class="frame">
+            <!-- GANTI FOTO: simpan foto di folder foto/ dengan nama helen.jpeg -->
+            <img src="foto/helen.jpeg" alt="Foto Sayyedah Fatma Helen" width="480" height="600"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='grid'" />
+            <div class="frame__fallback" style="display:none">SFH</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ME ============ -->
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+
+        <div class="about">
+          <div>
+            <p class="prose">Saya mahasiswa baru Teknik Informatika Universitas Negeri Surabaya dengan minat pada UI/UX Design, terutama merancang antarmuka digital yang mudah dipakai dan berorientasi pada pengguna. Saya terbiasa berkomunikasi, bekerja dalam tim, dan berorganisasi. Saya kreatif, adaptif, bertanggung jawab, dan ingin terus mengembangkan keterampilan di bidang desain digital dan teknologi.</p>
+          </div>
+
+          <!-- Profil singkat: Nama, NIM, Prodi -->
+          <dl class="facts">
+            <div><dt>Nama</dt><dd>Sayyedah Fatma Helen</dd></div>
+            <!-- Tambahkan NIM bila diminta dosen: <div><dt>NIM</dt><dd>ISI_NIM</dd></div> -->
+            <div><dt>Status</dt><dd>Mahasiswa baru</dd></div>
+            <div><dt>Program Studi</dt><dd>Teknik Informatika</dd></div>
+            <div><dt>Universitas</dt><dd>Universitas Negeri Surabaya (UNESA)</dd></div>
+          </dl>
+        </div>
+
+        <!-- Pendidikan -->
+        <h3 class="block-title">Pendidikan</h3>
+        <div class="edu">
+          <article class="edu__item edu__item--now">
+            <p class="badge">Saat ini</p>
+            <h4>Universitas Negeri Surabaya (UNESA)</h4>
+            <p class="muted">S1 Teknik Informatika</p>
+            <p>Mahasiswa baru.</p>
+          </article>
+          <article class="edu__item">
+            <p class="period">Juni 2023 – 2026</p>
+            <h4>Madrasah Aliyah Negeri Kota Surabaya</h4>
+            <p class="muted">Wonorejo Timur, Surabaya</p>
+          </article>
+        </div>
+
+        <!-- Aktivitas -->
+        <h3 class="block-title">Aktivitas</h3>
+        <ol class="timeline">
+          <li class="tl">
+            <span class="tl__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M21 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <div class="tl__body">
+              <p class="period">Juni 2023 – 2025</p>
+              <h4>Organisasi Siswa Intra Sekolah (OSIS)</h4>
+              <p class="muted">Kegiatan: MACRO, Maulid Nabi, Classmate, Isra' Mi'raj</p>
+              <ul class="list">
+                <li>Wakil Ketua Ketakwaan dan Anggota Ketakwaan</li>
+                <li>Ketua Pelaksana Acara Maulid Nabi</li>
+                <li>Humas Acara dan Ketua Sie Konsumsi</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl">
+            <span class="tl__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6C19 16.5 12 21 12 21Z"/></svg>
+            </span>
+            <div class="tl__body">
+              <p class="period">Juni 2023 – 2025</p>
+              <h4>Palang Merah Remaja (PMR)</h4>
+              <ul class="list">
+                <li>Sie Dokumentasi dan Publikasi</li>
+                <li>Berpartisipasi dalam donor darah dan PMR Got Talent</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl">
+            <span class="tl__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5Z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></svg>
+            </span>
+            <div class="tl__body">
+              <p class="period">Juni 2023 – 2024</p>
+              <h4>Sie Kerohanian Islam (SKI)</h4>
+              <ul class="list"><li>Sie Acara</li></ul>
+            </div>
+          </li>
+          <li class="tl">
+            <span class="tl__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 20h18L12 3Z"/><path d="M12 10v4"/></svg>
+            </span>
+            <div class="tl__body">
+              <h4>Pramuka</h4>
+              <p class="muted">Anggota kegiatan Pramuka di sekolah.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ WHAT I CAN DO ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>What I Can Do</h2>
+        <p class="section__sub">Kemampuan dan tools yang saya pakai, dikembangkan lewat belajar dan kegiatan organisasi.</p>
+
+        <div class="skills">
+          <div class="skills__group">
+            <h3>Skill</h3>
+            <ul class="tags">
+              <li>UI/UX Design (sedang dipelajari)</li>
+              <li>Desain digital</li>
+              <li>Kerja sama tim</li>
+              <li>Komunikasi</li>
+              <li>Manajemen waktu</li>
+              <li>Problem solving</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Tools</h3>
+            <ul class="tags tags--solid">
+              <li>Canva</li>
+              <li>Microsoft Word</li>
+              <li>Editing video</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENT ============ -->
+    <section class="section section--alt" id="achievement">
+      <div class="container">
+        <h2>Achievement</h2>
+        <p class="section__sub">Pencapaian yang pernah diraih.</p>
+
+        <div class="ach">
+          <article class="ach__item">
+            <p class="ach__year">2023</p>
+            <h3>Juara 1 Mading 3D se-Kota Surabaya</h3>
+            <p>Meraih juara pertama pada lomba mading 3D tingkat kota.</p>
+            <dl class="meta"><div><dt>Tingkat</dt><dd>Se-Kota Surabaya</dd></div><div><dt>Kategori</dt><dd>Mading 3D</dd></div></dl>
+          </article>
+          <article class="ach__item">
+            <p class="ach__year">2024</p>
+            <h3>Juara 1 Mading 3D se-Kota Surabaya</h3>
+            <p>Kembali meraih juara pertama pada lomba mading 3D tingkat kota.</p>
+            <dl class="meta"><div><dt>Tingkat</dt><dd>Se-Kota Surabaya</dd></div><div><dt>Kategori</dt><dd>Mading 3D</dd></div></dl>
+          </article>
+          <article class="ach__item">
+            <p class="ach__year">2023</p>
+            <h3>Juara 3 Poster se-PMR Wira Surabaya</h3>
+            <p>Meraih juara ketiga pada lomba poster antar-PMR Wira se-Surabaya.</p>
+            <dl class="meta"><div><dt>Lembaga</dt><dd>PMR Wira Surabaya</dd></div><div><dt>Masa</dt><dd>Selama di MAN Kota Surabaya</dd></div></dl>
+          </article>
+          <article class="ach__item">
+            <p class="ach__year">2023</p>
+            <h3>Medali Perunggu Olimpiade Virtual Airlangga</h3>
+            <p>Meraih medali perunggu pada olimpiade virtual bidang Matematika.</p>
+            <dl class="meta"><div><dt>Lembaga</dt><dd>Airlangga</dd></div><div><dt>Bidang</dt><dd>Matematika</dd></div><div><dt>Masa</dt><dd>Selama di MAN Kota Surabaya</dd></div></dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact__box">
+        <h2>Contact</h2>
+        <p class="prose">Terbuka untuk belajar, berkolaborasi, dan bertukar ide di bidang desain digital dan teknologi.</p>
+
+        <ul class="contact__list">
+          <li>
+            <span>Email</span>
+            <a href="mailto:sayyedah246@gmail.com">sayyedah246@gmail.com</a>
+          </li>
+          <li>
+            <span>GitHub</span>
+            <a href="https://github.com/sayyedah246-del" target="_blank" rel="noopener noreferrer">github.com/sayyedah246-del</a>
+          </li>
+          <li>
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/sayyedah-fatma-helen-526283441/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sayyedah-fatma-helen</a>
+          </li>
+          <li>
+            <span>CV / Resume</span>
+            <a href="cv/CV-Sayyedah-Fatma-Helen.pdf" target="_blank" rel="noopener noreferrer">Lihat CV (PDF)</a>
+          </li>
+        </ul>
+
+        <div class="actions actions--center">
+          <a href="mailto:sayyedah246@gmail.com" class="btn btn--primary">Kirim Email</a>
+          <a href="https://github.com/sayyedah246-del" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Buka GitHub</a>
+          <a href="https://www.linkedin.com/in/sayyedah-fatma-helen-526283441/" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Buka LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#home" class="logo">SFH</a>
+        <p class="muted">Sayyedah Fatma Helen</p>
+      </div>
+      <nav aria-label="Navigasi footer" class="footer__nav">
+        <a href="#about">About Me</a>
+        <a href="#skills">What I Can Do</a>
+        <a href="#achievement">Achievement</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__links">
+        <a href="https://github.com/sayyedah246-del" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/sayyedah-fatma-helen-526283441/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:sayyedah246@gmail.com">sayyedah246@gmail.com</a>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; <span id="year">2026</span> Sayyedah Fatma Helen</p>
+  </footer>
+
+  <button class="totop" id="totop" aria-label="Kembali ke atas" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
